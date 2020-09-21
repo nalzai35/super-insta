@@ -16,7 +16,7 @@ class Export extends Command
      *
      * @var string
      */
-    protected $signature = 'ig:export {--site_name=Super Insta} {to=html}';
+    protected $signature = 'ig:export {--site_name=Super Insta} {base_url} {to=html}';
 
     /**
      * The console command description.
@@ -42,10 +42,11 @@ class Export extends Command
      */
     public function handle()
     {
+        $base_url = $this->argument('base_url');
         $exportTo = $this->argument('to');
         $site_name = $this->option('site_name');
 
-        $this->html($site_name);
+        $this->html($site_name, $base_url);
     }
 
     private function getFiles()
@@ -73,7 +74,7 @@ class Export extends Command
         return $this->getData($file);
     }
 
-    private function html(string $site_name)
+    private function html(string $site_name, string $base_url)
     {
         $pages = [
             'dmca', 'copyright', 'privacy-policy', 'dmca'
@@ -122,15 +123,21 @@ class Export extends Command
         $this->buildSitemap();
     }
 
-    private function buildSitemap()
+    /**
+     * Build sitemap.txt on path exports/html. Generate from all files html
+     * @param string $base_url
+     */
+    private function buildSitemap(string $base_url)
     {
+        $base_url = Str::endsWith($base_url, '/') ? $base_url : $base_url . '/';
+
         $data_export = Storage::disk('data_export');
         $files = $data_export->allFiles();
-        $files = array_map(function ($item) {
-            if (! Str::contains($item, 'index.html') ) {
-                return str_replace("html/", "https://pic-insto.netlify.app/", $item);
-            }else{
-                return "https://pic-insto.netlify.app/";
+        $files = array_map(function ($item) use ($base_url) {
+            if (!Str::contains($item, 'index.html')) {
+                return str_replace("html/", $base_url, $item);
+            } else {
+                return $base_url;
             }
         }, $files);
 
