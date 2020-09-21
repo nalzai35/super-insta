@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f7da897-d5a8-4d82-9c0a-c5180ac9de63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +167,7 @@
       <workItem from="1600618465315" duration="773000" />
       <workItem from="1600619292566" duration="18178000" />
       <workItem from="1600692876286" duration="1424000" />
-      <workItem from="1600703479027" duration="1784000" />
+      <workItem from="1600703479027" duration="2027000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1600620054191</created>
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600693088469</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit 3">
+      <created>1600705666247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600705666247</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +199,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit 2" />
+    <MESSAGE value="initial commit 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1600619131747">
@@ -212,10 +219,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600630656118" />
-    <state x="575" y="0" key="CommitChangelistDialog2" timestamp="1600693085734">
+    <state x="266" y="0" width="1522" height="1040" key="CommitChangelistDialog2" timestamp="1600705665378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="575" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693085734" />
+    <state x="266" y="0" width="1522" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600705665378" />
     <state x="778" y="438" key="Github.CreateGistDialog" timestamp="1600619623890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -228,10 +235,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="837" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600634179767" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1600693111045">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1600705671390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693111045" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600705671390" />
     <state x="102" y="102" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600620398363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

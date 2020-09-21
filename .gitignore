@@ -12,6 +12,7 @@ npm-debug.log
 yarn-error.log
 
 # Local Netlify folder
+.idea
 .netlify
 /exports/
 /data_scrape/
