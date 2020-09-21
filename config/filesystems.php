@@ -65,6 +65,16 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
         ],
 
+        'data_scrape' => [
+            'driver' => 'local',
+            'root' => base_path('data_scrape'),
+        ],
+
+        'data_export' => [
+            'driver' => 'local',
+            'root' => base_path('exports'),
+        ],
+
     ],
 
     /*

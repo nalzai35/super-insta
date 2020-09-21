@@ -10,3 +10,9 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+
+# Local Netlify folder
+.netlify
+/exports/
+/data_scrape/
+/hashtags.txt
