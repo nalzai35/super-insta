@@ -25,8 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f7da897-d5a8-4d82-9c0a-c5180ac9de63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/themes/sitemap.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Console/Commands/Export.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/Export.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +193,8 @@
       <workItem from="1600618465315" duration="773000" />
       <workItem from="1600619292566" duration="18178000" />
       <workItem from="1600692876286" duration="1424000" />
-      <workItem from="1600703479027" duration="2696000" />
+      <workItem from="1600703479027" duration="3508000" />
+      <workItem from="1600868099281" duration="4100000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1600620054191</created>
@@ -221,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600705742745</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add feature create sitemap.txt">
+      <created>1600706461500</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600706461500</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,12 +253,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commit 2" />
     <MESSAGE value="initial commit 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit 3" />
+    <MESSAGE value="add feature create sitemap.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add feature create sitemap.txt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1600619131747">
@@ -263,14 +275,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600618388091" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600630656118">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600870740519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600630656118" />
-    <state x="266" y="0" width="1522" height="1040" key="CommitChangelistDialog2" timestamp="1600705742021">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600870740519" />
+    <state x="266" y="0" width="1522" height="1040" key="CommitChangelistDialog2" timestamp="1600706460872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="266" y="0" width="1522" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600705742021" />
+    <state x="266" y="0" width="1522" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600706460872" />
     <state x="778" y="438" key="Github.CreateGistDialog" timestamp="1600619623890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -283,18 +295,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="837" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600634179767" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1600705671390">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1600706559492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600705671390" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600706559492" />
     <state x="102" y="102" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600620398363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="102" y="102" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600620398363" />
-    <state x="668" y="95" width="583" height="849" key="find.popup" timestamp="1600703632926">
+    <state x="668" y="95" width="583" height="849" key="find.popup" timestamp="1600870696623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="95" width="583" height="849" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600703632926" />
+    <state x="668" y="95" width="583" height="849" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600870696623" />
     <state x="761" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600620200030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -120,7 +120,7 @@ class Export extends Command
 
         $bar->finish();
 
-        $this->buildSitemap();
+        $this->getSitemapXml();
     }
 
     /**
@@ -143,6 +143,23 @@ class Export extends Command
 
         $content = implode("\n", $files);
         $data_export->put('html/sitemap.txt', $content);
+        $this->info('Sitemap is created');
+    }
+
+    public function getSitemapXml(string $base_url)
+    {
+        $data_export = Storage::disk('data_export');
+        $files = $data_export->allFiles();
+        $files = array_map(function ($item) use ($base_url) {
+            if (!Str::contains($item, 'index.html')) {
+                return str_replace("html/", $base_url, $item);
+            } else {
+                return $base_url;
+            }
+        }, $files);
+
+        $content = view('sitemap', compact('files'));
+        $data_export->put('html/sitemap.xml', $content);
         $this->info('Sitemap is created');
     }
 }
